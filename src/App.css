@@ -26,12 +26,8 @@ body {
       width: 450px;
        margin-top: 50px;
     border-radius: 20px;
-     
-  
- 
-padding: 10px;
-
-min-height: auto;
+    min-height: 100vh;
+   padding: 10px;
 
        } 
 
@@ -167,11 +163,11 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-left: 5px groove #2ecc71;
+  border-right: 5px groove #2ecc71;
 }
 
 .list li.minus {
-  border-left: 5px groove #c0392b;
+  border-right: 5px groove #c0392b;
 }
 
 .delete-btn {
@@ -181,10 +177,10 @@ input[type='number'] {
   color: #fff;
   font-size: 20px;
   line-height: 20px;
-  padding: 2px 5px;
+   padding: 2px 5px; 
   position: absolute;
   top: 50%;
-  margin-left: 430px;
+  left: 0;
   transform: translate(-100%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease;
