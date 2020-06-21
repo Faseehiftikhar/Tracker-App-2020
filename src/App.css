@@ -26,11 +26,11 @@ body {
       width: 450px;
        margin-top: 50px;
     border-radius: 20px;
-    min-height: 100vh;
    padding: 10px;
-   min-width: 350px;
+   width: fit-content;
 
        } 
+   
 
   .balance{
     
